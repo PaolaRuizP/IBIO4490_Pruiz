@@ -174,18 +174,27 @@ See [here](ssh.md) for different types of SSH connection with respect to your OS
 
 1. What is the ``grep``command?
 
-2. What is the meaning of ``#!/bin/python`` at the start of scripts?
+The grep command stands for globally search for regular expression and print out. This command search por a specified pattern in a file and displays the lines that match the pattern. Using the options of the command it is possible to modify the format of the output and to give specific characteristcs to the search. For example, grep -c only displays de number of lines that match the pattern and grep -i ignores lower and upper case.
 
-3. Download using ``wget`` the [*bsds500*](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html#bsds500) image segmentation database, and decompress it using ``tar`` (keep it in you hard drive, we will come back over this data in a few weeks).
- 
+2. What is the meaning of ``#!/bin/python`` at the start of scripts?
+The meaning of #!/bin/python is telling the machine how it must execute the script.
+
+3. Download using ``wget`` the [*bsds500*](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html#bsds500) image segmentation database, and decompress it using ``tar``.
+
+
 4. What is the disk size of the uncompressed dataset, How many images are in the directory 'BSR/BSDS500/data/images'?
- 
-5. What are all the different resolutions? What is their format? Tip: use ``awk``, ``sort``, ``uniq`` 
+SIZE:37M
+IMAGES: 503
+
+5. What are all the different resolutions? What is their format? Tip: use ``awk``, ``sort``, ``uniq``
+Format: JPG and .mat
+Resolution:
 
 6. How many of them are in *landscape* orientation (opposed to *portrait*)? Tip: use ``awk`` and ``cut``
- 
-7. Crop all images to make them square (256x256) and save them in a different folder. Tip: do not forget about  [imagemagick](http://www.imagemagick.org/script/index.php).
 
+7. Crop all images to make them square (256x256) and save them in a different folder. Tip: do not forget about  [imagemagick](http://www.imagemagick.org/script/index.php).1. What is the ``grep``command?
+ 
+ 
 
 # Report
 
